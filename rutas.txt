@@ -1,0 +1,23 @@
+## RUTAS PARA PAGINA WEB GESCCOL SAHAGUN
+
+Se definiran las rutas necesarias para la navegacion en el sitio web
+
+#RUTAS PRINCIPALES
+
+/home -> ruta de pagina principal
+/about -> ruta de la pagina ¿Quienes somos? informarcion del talento humano
+/tramites -> ruta para mostrar el listado de tramites
+/atencion-al-ciudadano -> ruta para mostrar un formulario de atencion al cliente por correo
+/contacto -> ruta para mostrar datos de contacto de la empresa
+/noticias -> ruta para mostrar listado de entradas y noticias
+
+
+#RUTAS SECUNDARIAS
+/glosario -> ruta para mostrar palabras y conceptos claves al publico para educar sobre gestion catastral
+/preguntas-frecuentes -> ruta para mostrar un listado de preguntas frecuentes que se generan por parte de la ciudadania sobre los tramites catastrales
+
+
+
+#RUTAS INTERNAS/ID
+/tramites/nombre_tramite -> ruta para mostrar un tramite en espesifico
+/noticias/nombre_noticia -> ruta para mostrar una noticia en espesifico

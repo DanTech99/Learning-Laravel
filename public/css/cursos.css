@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background: rgb(196, 191, 191);
+    display: flex;
+    margin: 5px 10px 5px 10px;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.container{
+    position: relative;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
