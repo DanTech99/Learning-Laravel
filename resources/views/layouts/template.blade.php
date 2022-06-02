@@ -7,10 +7,24 @@
     <title>@yield('title')</title>
     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
     <link href="{{ asset('css/cursos.css') }}" rel="stylesheet">
+    <style>
+        .active{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    {{-- header --}}
+   @include('layouts.partials.header')
 
+    {{-- contenido --}}
     @yield('content')
-    
+
+    {{-- pie de pagina --}}
+    @include('layouts.partials.footer')
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     
 </body>
 </html>

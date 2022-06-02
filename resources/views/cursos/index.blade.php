@@ -11,7 +11,7 @@
     @foreach ($cursos as $curso)
       <div class="container">
          <div class="container-title">
-            <p><a href="{{route('cursos.show', $curso->id)}})">{{$curso->name}}</a></p>
+            <p><a href="{{route('cursos.show', $curso)}}">{{$curso->name}}</a></p>
          </div>
       </div>
     

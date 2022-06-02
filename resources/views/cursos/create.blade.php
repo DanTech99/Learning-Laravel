@@ -2,7 +2,7 @@
 
 @extends('layouts.template')
 
-@section('title', 'cursos')
+@section('title', 'crear')
 
 @section('content')
 
@@ -22,6 +22,20 @@
         <br>
 
     @enderror
+
+    <label >
+        slug:
+        <br>
+        <input type="text" name="slug" value="{{old('slug')}}">
+    </label><br>
+    @error('name')
+        <br>
+        <small style="color: red;">*{{$message}}</small>
+        <br>
+
+    @enderror
+
+
     <label >
         descripcion:
         <br>
